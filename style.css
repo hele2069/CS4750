@@ -1,0 +1,173 @@
+.navbar {
+    background: linear-gradient(to left, #bacfbc, #aad9f0);
+
+}
+
+.container {
+    margin-top: 1em;
+}
+
+.card {
+    border-radius: 4px;
+    background-color:rgba(251, 254, 255, 0.342);
+    border: 1px solid rgba(128, 128, 128, 0.116);
+    box-shadow: 0px 5px 5px -7px #00000025;
+}
+
+
+.books {
+    margin: 1em;
+    width:100%;
+    columns: 6;
+    flex-direction: column;
+    column-gap: 5px;
+    column-fill: balance;
+    overflow-x: hidden;
+}
+
+.book {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(219, 221, 219);
+    margin-bottom: 1rem;
+    z-index: 3;
+}
+
+.book-title {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+.cover {
+    width: 128px;
+    z-index: 999;
+}
+
+.genre-filters {
+    max-height: 30vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display:inline-block;
+}
+
+.genre-filters button {
+    margin:0px;
+    padding:0px;
+    border: 0px;
+}
+
+.col-3 {
+    position:sticky;
+}
+
+.next-page {
+    float:right;
+}
+
+.book-detail .title {
+    position: relative;
+}
+
+.book-detail .cover {
+    width: 256px;
+}
+
+.genre-filters {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.genre-bg {
+    background: linear-gradient(to top, #c0ebc4, #aad9f0);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genre-bg {
+    background: linear-gradient(to top, #c0ebc4, #aad9f0);
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genre {
+    width: 100%;
+    border: 1px solid black;
+    color: black;
+    font-weight:500;
+    text-decoration: none;
+}
+
+.book-container {
+    display: flex;
+}
+
+.book-cover-container {
+    float: left;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+.book-cover-container .cover {
+    width: 170px;
+}
+
+.book-cover-container .btn {
+    margin-top: 0.5rem;
+}
+
+.book-info-container {
+    float:right;
+    background-color: #f5f5f5;
+    padding: 1rem;
+}
+
+.author-name {
+    font-size: 1.1em;
+}
+
+.description {
+    margin-top: 1rem;
+}
+
+.meta {
+    font-size: 0.8em;
+    display: inline-block;
+}
+
+.meta p {
+    margin-bottom: 0px;
+}
+
+.star {
+    font-size: 1.3rem;
+}
+
+#filled {
+    color: transparent;  
+    text-shadow: 0 0 0 rgb(236, 204, 19);
+}
+
+#unfilled {
+    color: transparent;  
+    text-shadow: 0 0 0 rgba(66, 66, 65, 0.479);
+}
+
+
+.reviews, .rating{
+    font-size: 0.8em;
+}
+
+.reviews-card {
+    height: 79vh;
+}
